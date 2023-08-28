@@ -1,0 +1,40 @@
+.container1{
+    position:fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(42, 90, 28);
+    width: 1000px;
+    height:100%;
+}
+.container2{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    right: 0;
+    background-color: rgb(143, 25, 25);
+    width: 366px;
+}
+html,body{
+    background-color: rgba(0, 0, 0, 0.274);
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font-family: Header;
+}
+h3{
+    font-family: Alt;
+}
+.logo{
+    width: 150px;
+}
+@font-face {
+
+    font-family: Alt;
+    src: url(../fonts/dogicapixelbold.ttf);
+  }
+  @font-face {
+    font-family: Header;
+    src: url(../fonts/upheavtt.ttf);
+  }
