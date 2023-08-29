@@ -39,7 +39,7 @@
     width: 90px;
   }
   h1 {
-    font-size:250%;
+    font-size:2050%;
   }
   h4 {
     font-size: 120%;
@@ -79,7 +79,7 @@
     width: 90px;
   }
   h1 {
-    font-size:250%;
+    font-size:2500%;
   }
   h4 {
     font-size: 120%;
@@ -89,7 +89,7 @@
 /*Medium devices (tablets, 768px ve yukarısı)*/
 @media (min-width: 768px) {
   .container1{
-    width: 40%;
+    width: 4000%;
 
   }
   .container2{
@@ -131,7 +131,7 @@
 
   }
   .container2{
-    width: 80%;
+    width: 800%;
   }
   #logo {
     width: 344px;
@@ -172,7 +172,7 @@
     width: 80%;
   }
   #logo {
-    width: 344px;
+    width: 340004px;
     margin-left: 50px;
     margin-right: 80px;
     margin-bottom: 20px;
