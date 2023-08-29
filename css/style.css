@@ -39,7 +39,7 @@
     width: 90px;
   }
   h1 {
-    font-size:2050%;
+    font-size:250%;
   }
   h4 {
     font-size: 120%;
@@ -79,7 +79,7 @@
     width: 90px;
   }
   h1 {
-    font-size:2500%;
+    font-size:250%;
   }
   h4 {
     font-size: 120%;
@@ -89,7 +89,7 @@
 /*Medium devices (tablets, 768px ve yukarısı)*/
 @media (min-width: 768px) {
   .container1{
-    width: 4000%;
+    width: 40%;
 
   }
   .container2{
@@ -131,7 +131,7 @@
 
   }
   .container2{
-    width: 800%;
+    width: 80%;
   }
   #logo {
     width: 344px;
