@@ -9,15 +9,22 @@
 
 
 @media (max-width: 576px) {
+  .container1{
+    width: 40%;
+
+  }
+  .container2{
+    width: 60%;
+  }
   #logo {
-    width: 100px;
+    width: 200px;
     margin-left: 20px;
     margin-right: 40px;
     margin-bottom: 10px;
     border-radius: 8%;
   }
   #icon {
-    width: 20px;
+    width: 40px;
     margin-left: 9px;
     margin-right: 40px;
   }
@@ -29,28 +36,35 @@
   .avat {
     margin: 15px;
   
-    width: 70px;
+    width: 90px;
   }
   h1 {
-    font-size: 150%;
+    font-size:250%;
   }
   h4 {
-    font-size: 70%;
+    font-size: 120%;
   }
   
   
 }
 /*Small devices (landscape phones, 576px ve yukarısı)*/
 @media (min-width: 576px) {
+  .container1{
+    width: 40%;
+
+  }
+  .container2{
+    width: 60%;
+  }
   #logo {
-    width: 150px;
+    width: 225px;
     margin-left: 30px;
     margin-right: 50px;
     margin-bottom: 12px;
     border-radius: 8%;
   }
   #icon {
-    width: 25px;
+    width: 40px;
     margin-left: 9px;
     margin-right: 40px;
   }
@@ -62,27 +76,34 @@
   .avat {
     margin: 15px;
   
-    width: 80px;
+    width: 90px;
   }
   h1 {
-    font-size: 150%;
+    font-size:250%;
   }
   h4 {
-    font-size: 80%;
+    font-size: 120%;
   }
 }
 
 /*Medium devices (tablets, 768px ve yukarısı)*/
 @media (min-width: 768px) {
+  .container1{
+    width: 40%;
+
+  }
+  .container2{
+    width: 60%;
+  }
   #logo {
-    width: 200px;
+    width: 250px;
     margin-left: 30px;
     margin-right: 50px;
     margin-bottom: 15px;
     border-radius: 8%;
   }
   #icon {
-    width: 35px;
+    width: 40px;
     margin-left: 20px;
     margin-right: 40px;
   }
@@ -94,17 +115,24 @@
   .avat {
     margin: 15px;
   
-    width: 90px;
+    width: 100px;
   }
   h1 {
-    font-size: 200%;
+    font-size: 300%;
   } h4 {
-    font-size: 90%;
+    font-size: 150%;
   }}
  
 
 /* Large devices (desktops, 992px ve yukarısı)*/
 @media (min-width: 992px) {
+  .container1{
+    width: 20%;
+
+  }
+  .container2{
+    width: 80%;
+  }
   #logo {
     width: 344px;
     margin-left: 50px;
@@ -125,17 +153,24 @@
   .avat {
     margin: 15px;
   
-    width: 100px;
+    width: 120px;
   }
   h1 {
-    font-size: 250%;
+    font-size: 350%;
   }h4 {
-    font-size: 100%;
+    font-size: 200%;
   }}
   
 
 /* Extra large devices (large desktops, 1200px ve yukarısı)*/
 @media (min-width: 1200px) {
+  .container1{
+    width: 20%;
+
+  }
+  .container2{
+    width: 80%;
+  }
   #logo {
     width: 344px;
     margin-left: 50px;
@@ -156,12 +191,12 @@
   .avat {
     margin: 15px;
   
-    width: 100px;
+    width: 130px;
   }
   h1 {
-    font-size: 300%;
+    font-size: 350%;
   }  h4 {
-    font-size: 130%;
+    font-size: 200%;
   }}
   
 /*Denems*/
@@ -237,7 +272,6 @@ float:right;
   background-color: #831313;
   height: 100%;
   display: inline-block;
-  width: 20%;
 }
 .container2 {
   position: absolute;
@@ -245,7 +279,6 @@ float:right;
   right: 0;
   background-color: #201e4b;
   display: inline-block;
-  width: 80%;
 }
 .foot {
   background-color: rgb(202, 5, 38);
